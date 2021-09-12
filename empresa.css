@@ -1,0 +1,98 @@
+body {
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+
+/*menu-------------------------------------------------------------------------------------------------------*/
+
+.menu {
+    overflow: hidden;
+    background-color: #f2f2f2;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+  }
+  
+  .menu a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-right: 50px;
+    padding-right: 10px;
+  }
+  
+  
+  .menu img{
+      margin-left: 50px;
+  }
+  
+  .menu a:hover, :active{
+      color: #8D6339;
+  }
+  
+/*banner----------------------------------------------------------------------------------------------------*/
+
+.banner img{
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+/*empresa---------------------------------------------------------------------------------------------------*/
+
+.titulo01 h1 {
+    color: black;
+    text-align: center;
+    padding-top: 100px;
+  }
+  
+  .titulo01 hr {
+    border: none;
+    background-color: #ccc;
+    color:  #ccc;;
+    height: 5px;
+    width: 80px;
+  }
+
+  .descricao p{
+    font-size: 25px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #3C3B35;
+  }
+
+/*icons-----------------------------------------------------------------------------------------------------*/
+
+   .icons table {
+     margin-left: 80px;
+     margin-right: 80px;
+   }
+   
+   .icons img {
+     padding-top: 80px;
+     padding-left: 10px;
+   }
+   
+   .icons h1{
+     font-size: 20px;
+     padding-top: 90px;
+     margin-left: 5px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     text-align: center;
+   }
+   
+   
+   .icons p{
+     font-size: 15px;
+     margin-left: 5px;
+     color: #615554;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     text-align: center;
+   }
