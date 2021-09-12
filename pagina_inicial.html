@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D'Franco Movelaria</title>
+    <link rel ="stylesheet" type="text/css" href="paginainicial.css">
+    <link rel="shortcut icon" href="C:\Users\alexa\OneDrive\Imagens\Imagens HTML\PAI\loguinho.png" type="image/x-icon">
+
+</head>
+<body>
+
+<!--SLIDESHOW------------------------------------------------------------------------------------------>
+
+
+<div class="slideshow-container">
+
+    <div class ="button" style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+
+    <div class="Slides fade">
+        <img src="C:\Users\alexa\OneDrive\Imagens\Imagens HTML\PAI\01.jpg">
+      <div class ="text">
+        <h1>MÓVEIS DE QUALIDADE</h1>
+        <p>ENTREGA GARANTIDA</p>
+      </div>
+    </div>
+    
+    <div class="Slides fade">
+      <img src="C:\Users\alexa\OneDrive\Imagens\Imagens HTML\PAI\03.jpg">
+      <div class ="text">
+        <h1>PROJETOS PLANEJADOS</h1>
+        <p>PARA QUALQUER AMBIENTE</p>
+      </div>
+    </div>
+
+    <div class="Slides fade">
+      <img src="C:\Users\alexa\OneDrive\Imagens\Imagens HTML\PAI\02.jpg">
+      <div class ="text">
+        <h1>CONHEÇA NOSSOS</h1>
+        <p>SHOWROOMS!</p>
+      </div>
+    </div>
+
+   
+</div>
+  
+<!--SLIDE AUTO------------------------------------------------------------------------------------------>
+
+<script>
+        var slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("Slides");
+          var dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 5000);
+        }
+</script>
+
+<!--MENU------------------------------------------------------------------------------------------------->
+
+<div class="menu">
+  <img src ="C:\Users\alexa\OneDrive\Imagens\Imagens HTML\PAI\logo.png" width="200px">
+  <a href="contato"><b>CONTATO</b></a>
+  <a href="orçamento"><b>SOLICITE UM ORÇAMENTO</b></a>
+  <a href="projetos"><b>NOSSOS PROJETOS</b></a>
+  <a href="D:\DOCUMENTOS\GIOVANA\SITES\PAI\EMPRESA\empresa.html"><b>EMPRESA</b></a>
+  <a href ="D:\DOCUMENTOS\GIOVANA\SITES\PAI\PAGINA INICIAL\paginainicial.html"><b>HOME</b></a>
+</div>
+
+<!--AMBIENTE--------------------------------------------------------------------------------------------->
+
+<div class ="titulo01">
+  <h1>AMBIENTES<hr></h1>
+</div>
+
+<div class ="slider">
+
+
+
+  <div class="imgs">
+    <img src="D:\IMAGENS\ALEX\Moveis\IMG-20180612-WA0009.jpg" class="image">
+    <div class="overlay">
+      <div class="texto">COZINHAS <br>
+        <a href ="#">VEJA MAIS</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="imgs2">
+    <img src="D:\IMAGENS\ALEX\Moveis\9.jpg" class="image2">
+    <div class="overlay2">
+      <div class="texto2">BANHEIROS <br>
+        <a href ="#">VEJA MAIS</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="imgs3">
+    <img src="D:\IMAGENS\ALEX\Moveis\12.jpg" class="image3">
+    <div class="overlay3">
+      <div class="texto3">SALAS <br>
+        <a href ="#">VEJA MAIS</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="imgs4">
+    <img src="D:\IMAGENS\ALEX\Moveis\15.jpg" class="image4">
+    <div class="overlay4">
+      <div class="texto4">QUARTOS <br>
+        <a href ="#">VEJA MAIS</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!--ICONES----------------------------------------------------------------------------------------------->
+
+<div class ="icons">
+
+  <table border="0">
+
+
+    <tr>
+      <td><img src = "C:\Users\alexa\OneDrive\Imagens\Imagens HTML\PAI\oie_transparent (1).png"></td>
+      <td><h1>5 anos de garantia</h1><p>Qualidade incomparável.</p></td>
+      <td><img src = "C:\Users\alexa\OneDrive\Imagens\Imagens HTML\PAI\oie_2tUsqrUALqRk.png"></td>
+      <td><h1>Entrega Ágil</h1><p>Móveis planejados em curto prazo.</p></td>
+      <td><img src = "C:\Users\alexa\OneDrive\Imagens\Imagens HTML\PAI\oie_transparent (2).png"></td>
+      <td><h1>Parcerias</h1><p>A D'Franco Movelaria tem os <br> melhores arquitetos como parceiros.</p></td>
+    </tr>
+
+    <tr>
+      <td><img src = "C:\Users\alexa\OneDrive\Imagens\Imagens HTML\PAI\oie_transparent (3).png"></td>
+      <td><h1>Sustentabilidade</h1><p>Nossos móveis são 100% MDF <br> proveniente de reflorestamento.</p></td>
+      <td><img src = "C:\Users\alexa\OneDrive\Imagens\Imagens HTML\PAI\oie_transparent.png"></td>
+      <td><h1>Tecnologia de Ponta</h1><p>Movéis planejados fabricação própria.</p></td>
+      <td><img src = "C:\Users\alexa\OneDrive\Imagens\Imagens HTML\PAI\oie_ubbMEilqg0qR.png"></td>
+      <td><h1>Projetos sob medida</h1><p>Traga seu projeto ou faça com <br> um de nossos consultores</p></td>
+    </tr>
+
+
+  </table>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
